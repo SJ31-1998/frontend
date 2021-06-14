@@ -1,12 +1,14 @@
 
 import './App.css';
-import Demo1 from './components/Demo1';
+
+import {SortingTable} from './components/SortingTable';
+
 
 function App() {
   return (
     <div className="App">
-     
-       <Demo1/>
+     <SortingTable />
+
     </div>
   );
 }
